@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<title>俄罗斯方块</title>
+	<link rel="shortcut icon" href="favicon_jyf.ico">
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+<canvas id="gamePanel"></canvas>
+
+<div id="configure">
+	<h3>分数:<span id="score">0</span></h3>
+	<hr>
+	<div id="stop" title="开始">start</div>
+	<div id="pause" title="暂停">pause</div>
+	<hr>
+	<h3>说明：</h3>
+	<p>start按钮可以开始新游戏和结束游戏，pause按钮用于暂停游戏。</p>
+	<p>按上下左右进行操作</p>
+	<p>仿造小时候玩的黑白5元机上的坦克大战，就是下面这货，图片来自某宝。</p>
+	<img src="gb.jpg">
+</div>
+
+<script src="scripts/tetris.js"></script>
+<script src="scripts/client.js"></script>
+</body>
+</html>
